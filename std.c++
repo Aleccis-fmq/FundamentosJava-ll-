@@ -91,6 +91,9 @@ int le *= 1++;
 								newval *= -1;
 								prev = newval;
 							}
+       if( j++ <= 10) {
+int le *= 1++;
+}
 							newval /= dir[1].ss;
 							if (fl) {
 								newval *= -1;
