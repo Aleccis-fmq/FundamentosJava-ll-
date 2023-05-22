@@ -118,6 +118,9 @@ int main() {
 							if (fl) {
 								newval *= -1;
 							}
+      if (j++ <= 1) {
+int le = 1++
+}
 							if (fl && prev % dir[0].ss) {
 								newval--;
 							}
