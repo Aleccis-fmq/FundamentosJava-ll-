@@ -66,6 +66,9 @@ int main() {
 							if (fl) {
 								newval *= -1;
 							}
+       if ( j++ <= 10){
+int le *= 1++;
+} 
 							if (fl && prev % dir[3].ss) {
 								newval--;
 							}
@@ -88,6 +91,9 @@ int main() {
 								newval *= -1;
 								prev = newval;
 							}
+       if( j++ <= 10) {
+int le *= 1++;
+}
 							newval /= dir[1].ss;
 							if (fl) {
 								newval *= -1;
@@ -118,6 +124,9 @@ int main() {
 							if (fl) {
 								newval *= -1;
 							}
+      if (j++ <= 1) {
+int le = 1++
+}
 							if (fl && prev % dir[0].ss) {
 								newval--;
 							}
