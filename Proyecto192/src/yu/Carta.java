@@ -21,6 +21,16 @@ public class Carta {
 		System.out.println(numero  + " / " + simbolo);
 	}
 	
+	//return valor clase enum
+	
+	public Valor retornarPalo() {
+		return simbolo;
+	}
+	
+	public int retornarnumero() {
+		return numero;
+	}
+	
 	
 	
 	

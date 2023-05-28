@@ -34,6 +34,30 @@ public class mazo {
 		System.out.println("RANDOM");
 		ct.imprimir();
 		
+		
+		//
+		switch (ct.retornarPalo()) {
+		case CORAZN: {
+			System.out.println("Valor Corazon");
+			break;
+		}
+		case ROMBO: {
+			System.out.println("Valor Rombo");
+			break;
+		}
+		case TREBOL: {
+			System.out.println("Valor Trebol");
+			break;
+		}
+		case PIKZ: {
+			System.out.println("Valor Pikz");
+			break;
+		}
+		
+		}
+		System.out.println(ct.retornarnumero());
+		
+		
 	}
 	
 	public static void main (String [] args) {
